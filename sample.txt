@@ -1,0 +1,415 @@
+export const Bio = {
+  name: "Saikat Mallik",
+
+  roles: [
+    "Software Engineer",
+    "Backend Developer",
+    "GenAI Developer",
+  ],
+
+  description:
+    "I am a Software Engineer and B.Tech graduate with hands-on experience building full-stack web applications using the MERN stack. I have a strong foundation in REST APIs, JWT authentication, database management, Data Structures and Algorithms, and Generative AI, with a growing focus on RAG and AI-powered applications.",
+
+  github: "https://github.com/CodeBySaikat",
+
+  resume: "",
+
+  linkedin: "https://www.linkedin.com/in/saikat-mallik-11259026a",
+};
+
+
+export const skills = [
+  {
+    title: "Programming Languages",
+    skills: [
+      {
+        name: "C++",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
+      },
+      {
+        name: "JavaScript",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+      },
+    ],
+  },
+
+  {
+    title: "Frontend",
+    skills: [
+      {
+        name: "HTML5",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
+      },
+      {
+        name: "CSS3",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
+      },
+      {
+        name: "React.js",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+      },
+      {
+        name: "Tailwind CSS",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg",
+      },
+    ],
+  },
+
+  {
+    title: "Backend",
+    skills: [
+      {
+        name: "Node.js",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
+      },
+      {
+        name: "Express.js",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
+      },
+      {
+        name: "Mongoose",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongoose/mongoose-original.svg",
+      },
+      {
+        name: "REST APIs",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
+      },
+      {
+        name: "JWT Authentication",
+        image:
+          "https://jwt.io/img/pic_logo.svg",
+      },
+    ],
+  },
+
+  {
+    title: "Databases",
+    skills: [
+      {
+        name: "MongoDB",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
+      },
+      {
+        name: "MySQL",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
+      },
+    ],
+  },
+
+  {
+    title: "Generative AI",
+    skills: [
+      {
+        name: "Generative AI",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      },
+      {
+        name: "RAG",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      },
+      {
+        name: "Vector Embeddings",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      },
+      {
+        name: "Vector Databases",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      },
+    ],
+  },
+
+  {
+    title: "Tools",
+    skills: [
+      {
+        name: "Git",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
+      },
+      {
+        name: "GitHub",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg",
+      },
+      {
+        name: "Postman",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg",
+      },
+      {
+        name: "VS Code",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
+      },
+    ],
+  },
+
+  {
+    title: "Core Concepts",
+    skills: [
+      {
+        name: "Data Structures & Algorithms",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+      },
+      {
+        name: "OOP",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+      },
+      {
+        name: "DBMS",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+      },
+      {
+        name: "Operating Systems",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+      },
+      {
+        name: "System Design",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      },
+    ],
+  },
+];
+
+
+
+export const experiences = [
+  {
+    id: 0,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
+    role: "Frontend Engineer Intern",
+    company: "Neurobit",
+    date: "June 2023 - Nov 2023",
+    desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
+    skills: [
+      "ReactJS",
+      "Redux",
+      "NodeJs",
+      "Material UI",
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
+  },
+  {
+    id: 1,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+    role: "DevOps & Fullstack Engineering Intern",
+    company: "Flipr Inovations Pvt. Ltd.",
+    date: "Aug 2023 - Oct 2023",
+    desc: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
+    skills: [
+      "Docker",
+      "Terraform",
+      "AWS",
+      "EC2",
+      "Portainer",
+      "Nginx",
+      "JavaScript",
+      "TypeScript",
+      "Node Js",
+      " Next Js",
+    ],
+    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
+  },
+  {
+    id: 2,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
+    role: "Android Developer Intern",
+    company: "Rudraksha Welffare Foundation",
+    date: "June 2021 - Oct 2021",
+    desc: "• Built RudraShakti - Astrologer App, with MVVM Architecture using Java and Android Studio integrating Firebase SDK. Created One to One video call integration with Socket.IO and Firebase cloud functions and integrated with Retrofit. Created Low Level Design and converted Figma design to XML code.",
+    skills: [
+      "Android",
+      "Java",
+      "Kotlin",
+      "XML",
+      "Node Js",
+      "Cloud Firestore",
+      "Firebase",
+      "Figma",
+    ],
+    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
+  },
+  {
+    id: 3,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+    role: "Fullstack Externship",
+    company: "Flipr",
+    date: "June 2023 - July 2023",
+    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+    skills: [
+      "ReactJS",
+      "Redux",
+      "NodeJs",
+      "Material UI",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Docker",
+      "AWS",
+      "MongoDB",
+    ],
+    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
+  },
+  {
+    id: 4,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
+    role: "Android Developer",
+    company: "DSC KIIT",
+    date: "Nov2021 - Present",
+    desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
+    skills: [
+      "Leadership",
+      "Mobile Application Development",
+      "Kotlin",
+      "XML",
+      "Figma",
+    ],
+  },
+  {
+    id: 5,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
+    role: "Open Source Contributor ",
+    company: "GirlScript Summer of Code",
+    date: "May 2023 - Present",
+    desc: "Contributed to different open-source projects and learn from industry experts",
+  },
+];
+
+
+export const education = [
+  {
+    id: 0,
+    school: "Punjab Engineering College (PEC), Chandigarh",
+    date: "Dec 2022 - June 2026",
+    grade: "",
+    desc:
+      "Bachelor of Technology with relevant coursework in Data Structures and Algorithms, Analysis and Design of Algorithms, and Generative AI.",
+    degree: "Bachelor of Technology",
+  },
+  {
+    id: 1,
+    school: "Kenduadihi High School, West Bengal",
+    date: "June 2019 - May 2021",
+    grade: "",
+    desc: "Completed Class 12 (Higher Secondary).",
+    degree: "Class 12 (Higher Secondary)",
+  },
+];
+
+
+export const projects = [
+  {
+    id: 0,
+    title: "Premium Bag Shop",
+    date: "June 2025",
+    description:
+      "Backend e-commerce platform for browsing and purchasing luxury bags. Implemented JWT authentication, product management, cart, orders, reviews, product search and filtering, checkout with saved addresses, and secure admin APIs for managing products and orders.",
+    image: "",
+    tags: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JavaScript",
+      "JWT",
+      "Postman",
+    ],
+    category: "web app",
+    github: "",
+    webapp: "",
+  },
+
+  {
+    id: 1,
+    title: "Twitter Clone",
+    date: "November 2025",
+    description:
+      "Full-stack social media application built with the MERN stack. Implemented secure authentication using JWT and Bcrypt, along with post creation, likes, comments, follow/unfollow, notifications, and a responsive user interface.",
+    image: "",
+    tags: [
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Bcrypt",
+    ],
+    category: "web app",
+    github: "",
+    webapp: "",
+  },
+
+  {
+    id: 2,
+    title: "EduManager",
+    date: "March 2026",
+    description:
+      "Role-based education management system supporting separate access levels for admins, teachers, and students. Built secure REST APIs for managing students, teachers, courses, and classes with full CRUD operations, JWT authentication, and Postman-based API testing.",
+    image: "",
+    tags: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST APIs",
+      "JWT",
+      "Postman",
+    ],
+    category: "web app",
+    github: "",
+    webapp: "",
+  },
+];
+
+
+
+export const TimeLineData = [
+  {
+    year: 2022,
+    text: "Started Bachelor of Technology at Punjab Engineering College, Chandigarh",
+  },
+  {
+    year: 2024,
+    text: "Joined the ASCE Society organizing committee at Punjab Engineering College",
+  },
+  {
+    year: 2025,
+    text: "Built Premium Bag Shop e-commerce backend",
+  },
+  {
+    year: 2025,
+    text: "Built Twitter Clone using the MERN stack",
+  },
+  {
+    year: 2026,
+    text: "Built EduManager role-based education management system",
+  },
+  {
+    year: 2026,
+    text: "Completed Bachelor of Technology",
+  },
+];
